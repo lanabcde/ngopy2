@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Buat virtual environment jika belum ada
-python -m venv myenv
+python3.9 -m venv myenv
 
 # Aktifkan virtual environment
 source myenv/bin/activate
@@ -10,4 +10,4 @@ source myenv/bin/activate
 pip install -r requirements.txt
 
 # Jalankan collectstatic
-python3 manage.py collectstatic
+python3.9 manage.py collectstatic
